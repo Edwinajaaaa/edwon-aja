@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zodiak Finder</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tebak zodiak BY EDWIN </h1>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+      <br>
+      <label for="tgl_lahir">Tanggal Lahir:</label>
+      <input type="date" id="tgl_lahir" name="tgl_lahir" required>
+      <br>
+      <button type="button" onclick="tebakZodiak()">KLIK</button>
+    </form>
+    <div id="hasil"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
